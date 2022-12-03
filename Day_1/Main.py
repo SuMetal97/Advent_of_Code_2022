@@ -11,3 +11,5 @@ with open('input.txt', 'r') as file:
 ####sort elves######
 starving_elves.sort()
 print(starving_elves[len(starving_elves) - 1])
+print("\n")
+print( starving_elves[len(starving_elves) - 1] + starving_elves[len(starving_elves) - 2] + starving_elves[len(starving_elves) -3])
