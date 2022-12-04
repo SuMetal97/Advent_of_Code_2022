@@ -1,4 +1,6 @@
 import string
+import time
+start_time = time.time()
 values = {}
 
 for x, y in zip(range(1, 27), string.ascii_lowercase):
@@ -30,4 +32,4 @@ with open('input.txt', 'r') as file:
 
 print("total part 1: " + str(total_part1))
 print("total part 2: " + str(total_part2))
-
+print("--- %s seconds ---" % (time.time() - start_time))
