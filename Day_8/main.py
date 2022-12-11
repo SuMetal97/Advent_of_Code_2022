@@ -2,7 +2,6 @@ import time
 start_time = time.time()
 matrix = []
 with open('input.txt', 'r') as file:
-        row = 0
         for line in (file.readlines()):
             stripline = (line.strip('\n'))
             matrix.append([*stripline])
