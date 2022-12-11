@@ -28,22 +28,3 @@ with open('input.txt', 'r') as file:
                         total += your_moves[me] + 3
 
 print(total)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
